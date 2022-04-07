@@ -1,5 +1,5 @@
 .navbar {
-    display: lex;
+    display: flex;
     justify-content: space-between;
     background-color: #222;
     padding: 1em;
