@@ -4,4 +4,10 @@
 
 .title_container {
     margin-bottom: 2em;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
 }

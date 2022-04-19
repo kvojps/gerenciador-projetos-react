@@ -42,9 +42,9 @@ function Projects() {
                 <LinkButton to="/newproject" text="Criar Projeto"/>
             </div>
             {message && <Message type="success" msg={message} />}
-            <div className={styles.project}>
+            <div >
                 <Container customClass="start">
-                    <div>{projects.length > 0 && 
+                    <div className={styles.projects}>{projects.length > 0 && 
                             projects.map((project) => (
                                 <ProjectCard
                                     id={project.id} 
